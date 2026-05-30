@@ -63,4 +63,31 @@ Log every session here. Format: date, who worked, what was done, what changed, w
 
 ---
 
+## Session 004 — 2026-05-29 | Derrick + Exo
+
+**What happened:** Built out the full docs/ folder structure and upgraded README to portfolio-grade.
+
+**What was done:**
+- Created `docs/` and `docs/screenshots/` folders
+- Moved `AuditMind_CaseStudy_v2.docx` into `docs/`
+- Copied `AuditMind_Tyler_Technologies_20260530.pdf` from Downloads into `docs/`
+- Copied and renamed 4 screenshots into `docs/screenshots/`:
+  - `score_cards.png` — score cards hero view (Exposure/Gap/Visible Gov/Confidence)
+  - `audit_findings.png` — all 3 audit findings with priority + confidence badges
+  - `recommended_controls.png` — 4 recommended actions with owner and timeline
+  - `scoring_breakdown.png` — visible governance breakdown with progress bars
+- Replaced `README.md` with portfolio-grade version (Derrick-authored)
+- Note: screenshot filenames used Unicode narrow no-break space ` ` before "PM" — required Python shutil to copy correctly
+
+**What is next (Phase 1, continuing in order):**
+1. ~~Hans reviews `app.py`~~ — complete
+2. ~~Create `requirements.txt`~~ — complete
+3. ~~Docs folder + screenshots + README upgrade~~ — complete (this session)
+4. Deploy to Streamlit Cloud — get public URL, add to README
+5. Push everything to GitHub main
+
+**Status:** Repo is portfolio-ready locally. Awaiting Streamlit Cloud deployment and final GitHub push.
+
+---
+
 <!-- Add new sessions below this line -->
